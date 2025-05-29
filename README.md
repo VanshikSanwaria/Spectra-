@@ -1,5 +1,29 @@
 # Spectra-
-Similar Research Paper Recommendation System
+# Spectra+ – Academic Research Paper Recommender
+
+Spectra+ is a hybrid AI-based recommendation system designed to suggest academic research papers using both semantic and citation-based relevance. It integrates state-of-the-art NLP models to enhance research discovery across disciplines.
+
+## 🔍 Features
+
+- 🔗 **Hybrid Recommendation**: Combines semantic similarity (SBERT) and citation-based embeddings (SPECTER) for accurate results.
+- 📄 **Multi-Source Integration**: Fetches data from arXiv, PubMed, and IEEE Xplore using APIs.
+- 🧠 **NLP Preprocessing**: Applies tokenization, lemmatization, and stopword removal to clean input data.
+- 📊 **Citation Graph**: Models academic paper relationships using a citation graph to enable context-aware recommendations.
+- 💾 **Structured Data Handling**: Uses JSON format for storing and managing paper metadata.
+
+## 🛠️ Tech Stack
+
+- **Languages**: Python  
+- **Libraries**: SBERT, SPECTER, PyTorch, NLTK  
+- **Data Format**: JSON  
+- **Concepts**: NLP, Recommendation Systems, Citation Networks, Embedding Models
+
+## 📦 Installation
+
+bash
+git clone https://github.com/VanshikSanwaria/spectra-plus.git
+cd spectra-plus
+pip install -r requirements.txt
 
 ![image](https://github.com/user-attachments/assets/c4de25ba-f523-42a0-869a-c85e24c3bb8d)
 
